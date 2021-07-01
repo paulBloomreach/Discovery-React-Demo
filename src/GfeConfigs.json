@@ -1,0 +1,65 @@
+{
+  "possibleViews": [
+    {
+      "label": "No view",
+      "value": ""
+    },
+    {
+      "label": "Base",
+      "value": "base"
+    },
+    {
+      "label": "2000",
+      "value": "2000"
+    },
+    {
+      "label": "3000",
+      "value": "3000"
+    },
+    {
+      "label": "4000",
+      "value": "4000"
+    },
+    {
+      "label": "5000",
+      "value": "5000"
+    }
+  ],
+  "possibleUsers": [
+    {
+      "label": "Base user",
+      "value": ""
+    },
+    {
+      "label": "Some other user",
+      "value": "someOtherUser"
+    }
+  ],
+  "sortOptions": [
+    {
+      "label": "Relevance",
+      "value": "",
+      "icon": "star-of-life"
+    },
+    {
+      "label": "Price (low to high)",
+      "value": "price asc",
+      "icon": "sort-numeric-up"
+    },
+    {
+      "label": "Price (high to low)",
+      "value": "price desc",
+      "icon": "sort-numeric-down"
+    },
+    {
+      "label": "Sale Price (low to high)",
+      "value": "sale_price asc",
+      "icon": "sort-numeric-up"
+    },
+    {
+      "label": "Sale Price (high to low)",
+      "value": "sale_price desc",
+      "icon": "sort-numeric-down"
+    }
+  ]
+}

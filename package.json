@@ -1,0 +1,53 @@
+{
+  "name": "gfe",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "5.9.0",
+    "@fortawesome/fontawesome-svg-core": "1.2.30",
+    "@fortawesome/free-brands-svg-icons": "5.14.0",
+    "@fortawesome/free-regular-svg-icons": "5.14.0",
+    "@fortawesome/free-solid-svg-icons": "5.14.0",
+    "@fortawesome/react-fontawesome": "0.1.11",
+    "axios": "^0.21.1",
+    "bootstrap": "4.5.0",
+    "cors": "^2.8.5",
+    "env-cmd": "^10.1.0",
+    "fetch-jsonp": "^1.1.3",
+    "history": "^5.0.0",
+    "lodash.chunk": "^4.2.0",
+    "node-sass": "4.14.1",
+    "rc-slider": "^9.7.2",
+    "react": "17.0.1",
+    "react-block-ui": "^1.3.3",
+    "react-bootstrap": "1.3.0",
+    "react-cookie": "^4.0.3",
+    "react-dom": "17.0.1",
+    "react-number-format": "^4.4.1",
+    "react-router-dom": "5.2.0",
+    "react-scripts": "4.0.0",
+    "react-transition-group": "^4.3.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build --profile"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

@@ -1,0 +1,91 @@
+/*
+ * Copyright 2020 Bloomreach (http://www.bloomreach.com)
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *   http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+@import '~bootstrap/scss/functions';
+
+//
+// Override default bootstrap variables
+//
+$font-family-sans-serif: "Poppins", Helvetica, Arial, sans-serif !default;
+$font-family-base: $font-family-sans-serif !default;
+
+//black, white and grays
+$black: #000 !default;
+$gray-hero: #eef2f5 !default;
+$gray-100: #f8f9fa !default;
+$gray-200: #e9ecef !default;
+$gray-300: #dee2e6 !default;
+$gray-400: #ced4da !default;
+$gray-500: #adb5bd !default;
+$gray-600: #6c757d !default;
+$gray-700: #495057 !default;
+$gray-800: #343a40 !default;
+$gray-900: #212529 !default;
+$white: #fff !default;
+
+//custom color names come from coolors.co
+$apricot: #fbceb1;
+$blue: #377dff;
+$cinnabar: #de4437;
+$cyan: #00dffc;
+$dutch-white: #ead9bc;
+$gray: #8c98a4;
+$green: #28a745;
+$indigo: #2d1582;
+$orange: #fd7e14;
+$misty-rose: #ffe1d6;
+$neutral: #ffffff;
+$pacific-blue: #343d4f;
+$pacific-grey: #eae8e7;
+$pacific-red: #ff2442;
+$pink: #e83e8c;
+$purple: #6f42c1;
+//$red: #f44336; //#ffc107;
+$red: #de4437 !default;
+$red-lighter: #ffe8e6;
+
+$off-white: #f9fafb;
+
+$teal: #00c9a7;
+$yellow: #ffc107;
+$pacific-supply-blue: #008595;
+
+$primary: $red;
+$secondary: $pacific-blue; // $gray-600;
+$success: $green;
+$info: $gray-600; //to match the pacific-supply logo
+$warning: $yellow;
+$danger: $red;
+$light: $gray-100;
+$dark: $gray-800;
+
+$border-radius: .3125rem !default; // .3125rem !default;
+$border-radius-lg: .625rem !default;
+$border-radius-sm: .25rem !default;
+
+$component-padding-base: 2rem;
+$component-padding-bottom: $component-padding-base;
+$component-padding-top: $component-padding-base;
+
+@import '../default/overrides';
+
+//
+// Override default theme variables
+//
+$primary-background-color: $red-lighter;
+$primary-background-color-dark: $misty-rose;
+$secondary-background-color: $dutch-white;
+

@@ -1,0 +1,135 @@
+/*
+ * Copyright 2020 Bloomreach (http://www.bloomreach.com)
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *   http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+@import '../custom';
+
+.banner-collection {
+  &.container {
+    &.overlap-top {
+      //margin-top: -($spacer * 4.5);
+      //padding-top: 0;
+      //z-index: 100;
+    }
+
+    .row {
+      margin-bottom: 0;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+
+      .col {
+        margin-bottom: $spacer;
+      }
+    }
+  }
+
+  .banner {
+    &--card .card-img, &--card .card-img-bottom, &--card .card-img-top, &--textoverimage, &--threebythree, {
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    &--card {
+      .card-img, .card-img-top, .card-img-bottom {
+        height: 275px;
+      }
+    }
+
+    &--textoverimage {
+      height: 100vw;
+      max-height: 450px;
+
+      .card-title {
+        line-height: 1.2;
+      }
+    }
+
+    &--threebythree {
+      height: 26vw;
+      max-height: 90px;
+
+      .card-title {
+        letter-spacing: 3px;
+
+        a {
+          color: inherit;
+        }
+      }
+    }
+  }
+
+  .card-text > p {
+    color: inherit !important;
+  }
+}
+
+@media (min-width: map_get($grid-breakpoints, 'lg')) {
+  .banner-collection {
+    &.container {
+      &.overlap-top {
+        margin-top: -($spacer * 4.5);
+        padding-top: 0;
+        z-index: 100;
+      }
+    }
+
+    .banner {
+      &--card .card-img, &--card .card-img-bottom, &--card .card-img-top, &--textoverimage, &--threebythree, {
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+
+      &--card {
+        .card-img, .card-img-top, .card-img-bottom {
+          height: 275px;
+        }
+      }
+
+      &--textoverimage {
+        height: 28vw;
+        max-height: 450px;
+
+        .card-title {
+          font-size: 3.5rem;
+          line-height: 1.2;
+        }
+      }
+
+      &--threebythree {
+        height: 10vw;
+        max-height: 170px;
+
+        .card-title {
+          letter-spacing: 3px;
+        }
+      }
+    }
+
+    .card-text > p {
+      color: inherit !important;
+    }
+  }
+}
+
+.banner-collection-title {
+  font-size: 1.4rem;
+  font-weight: 700;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
