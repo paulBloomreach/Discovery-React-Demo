@@ -1,5 +1,5 @@
-# Welcome to GFE!
-GFE Is a super lightweight React based website which allows you to quickly spin up a demo showing some common search use cases for the Bloomreach Discovery Platform.
+# Welcome to The Bloomreach Discovery React Demo - (AKA:GFE)!
+The Bloomreach Discovery React Demo Is a super lightweight React based website which allows you to quickly spin up a demo showing some common search use cases for the Bloomreach Discovery Platform.
 
 # Whats included?
 - Searching
