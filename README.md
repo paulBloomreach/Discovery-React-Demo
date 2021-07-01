@@ -14,7 +14,7 @@ The Bloomreach Discovery React Demo Is a super lightweight React based website w
 
 # Installation
 1) Make sure you have nodejs - you can find installation instructions on https://nodejs.org/en/.
-2) Pull down this repo (git clone ...)
+2) Pull down this repo (git clone git@github.com:paulBloomreach/Discovery-React-Demo.git)
 3) access the project directory from your favourite terminal 
 4) npm install
 
