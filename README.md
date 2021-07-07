@@ -1,5 +1,5 @@
-# Welcome to The Bloomreach Discovery React Demo - (AKA:GFE)!
-The Bloomreach Discovery React Demo Is a super lightweight React based website which allows you to quickly spin up a demo showing some common search use cases for the Bloomreach Discovery Platform.
+# Welcome to The Bloomreach react Discovery demo (AKA GFE)!
+This is a super lightweight React based website which allows you to quickly spin up a demo showing some common search use cases for the Bloomreach Discovery Platform.
 
 # Whats included?
 - Searching
@@ -12,11 +12,19 @@ The Bloomreach Discovery React Demo Is a super lightweight React based website w
 - Autocorrect
 - Did you mean
 
-# Installation
-1) Make sure you have nodejs - you can find installation instructions on https://nodejs.org/en/.
-2) Pull down this repo (git clone git@github.com:paulBloomreach/Discovery-React-Demo.git)
-3) access the project directory from your favourite terminal 
-4) npm install
+# Installation - setting up Node.js
+
+Tested on the LTS version of Nodejs (14.17.3)  - to ensure you have the correct version of Node.js, we suggest that you make sure you are running this version as follows:
+
+1) Download Node Version Manager from https://github.com/nvm-sh/nvm 
+2) nvm install 14.17.3
+3) nvm use 14.17.3
+
+# Installation this software
+
+1) Pull down this repo (git clone ...)
+2) access the project directory from your favourite terminal 
+3) npm install
 
 # Configuration
 Edit the following keys in the .env file:
